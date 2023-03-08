@@ -17,7 +17,25 @@ public class Comparacao {
         System.out.print("Digite o primeiro numero: ");
         number1 = input.nextInt();
         
+        System.out.print("Digite o segundo numero: ");
+        number2 = input.nextInt();
         
+        if(number1 == number2)
+           System.out.printf("%d == %d%n",number1, number2);
         
+        if(number1 != number2)
+           System.out.printf("%d != %d%n",number1, number2);
+        
+        if(number1 < number2)
+            System.out.printf("%d < %d%n",number1, number2);
+     
+        if(number1 > number2)
+            System.out.printf("%d > %d%n",number1, number2);
+        
+        if(number1 <= number2)
+            System.out.printf("%d <= %d%n",number1, number2);
+        
+        if(number1 >= number2)
+            System.out.printf("%d >= %d%n",number1, number2);
     }
 }
